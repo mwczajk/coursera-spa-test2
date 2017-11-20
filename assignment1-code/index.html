@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" ng-app='MsgApp'>
+<html lang="en" ng-app='LunchCheck'>
   <head>
     <script src="angular.min.js"></script>
     <script src="app.js"></script>
@@ -11,10 +11,10 @@
     </style>
   </head>
 <body>
-   <div class="container" ng-controller='MsgController'>
+   <div class="container" ng-controller='LunchCheckController'>
      <h1>Lunch Checker</h1>
 
-         // Important: bonus requirement implemented, ie "1,,2" will count as 2 dishes (not 3)!
+         <!-- Important: bonus requirement implemented, ie "1,,2" will count as 2 dishes (not 3)! -->
          <div class="form-group">
              <input id="lunch-menu" type="text"
              placeholder="list comma separated dishes you usually have for lunch"

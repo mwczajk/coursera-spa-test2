@@ -1,8 +1,8 @@
 (function () {
 'use strict';
 
-angular.module('MsgApp', [])
-.controller('MsgController', MsgController);
+angular.module('LunchCheck', [])
+.controller('LunchCheckController', MsgController);
 
 MsgController.$inject = ['$scope'];
 function MsgController($scope) {
