@@ -1,0 +1,11 @@
+<div class="row"></div>
+  <div ng-if="empty" class="alert alert-danger" >
+      Nothing found
+    </div>
+  <h3 ng-if="!empty">Found items: </h3>
+<ol>
+  <li ng-repeat="item in found">
+    {{ item.name }}, {{ item.short_name }}, {{ item.description }}
+    <button ng-click="onRemove({index: $index});">Remove Item</button>
+  </li>
+</ol>
